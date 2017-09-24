@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests testFile bad 1`] = `
+"Oops, missing a label.
+# LOCALIZATION NOTE copySource): This is the text that appears in the
+
+Oops, an incorrect key.
+ # LOCALIZATION NOTE (copySource): This is the text that appears in the
+
+Oops, an incorrect key.
+ # LOCALIZATION NOTE (copySource): This is the text that appears in the"
+`;
+
+exports[`tests testGroup bad 1`] = `
+"Oops, missing a label.
+# LOCALIZATION NOTE copySource): This is the text that appears in the"
+`;
+
+exports[`tests testGroup bad 2`] = `
+"Oops, an incorrect key.
+ # LOCALIZATION NOTE (copySource): This is the text that appears in the"
+`;
+
+exports[`tests testGroup bad 3`] = `
+"Oops, an incorrect key.
+ # LOCALIZATION NOTE (copySource): This is the text that appears in the"
+`;

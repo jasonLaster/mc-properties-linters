@@ -1,0 +1,14 @@
+# LOCALIZATION NOTE copySource): This is the text that appears in the
+# context menu to copy the selected source of file open.
+copySource=Copy
+copySource.accesskey=y
+
+# LOCALIZATION NOTE (copySource): This is the text that appears in the
+# context menu to copy the selected source of file open.
+copySorce=Copy
+
+
+# LOCALIZATION NOTE (copySource): This is the text that appears in the
+# context menu to copy the selected source of file open.
+copySource=Copy
+copySorce.accesskey=y

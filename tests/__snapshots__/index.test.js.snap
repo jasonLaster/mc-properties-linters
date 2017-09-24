@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parsing bad 1`] = `
+Array [
+  Object {
+    "comments": Array [
+      "# LOCALIZATION NOTE copySource): This is the text that appears in the",
+      "# context menu to copy the selected source of file open.",
+    ],
+    "l10n": Array [
+      Object {
+        "key": "copySource",
+        "value": "Copy",
+      },
+      Object {
+        "key": "copySource.accesskey",
+        "value": "y",
+      },
+    ],
+  },
+  Object {
+    "comments": Array [
+      "# LOCALIZATION NOTE (copySource): This is the text that appears in the",
+      "# context menu to copy the selected source of file open.",
+    ],
+    "l10n": Array [
+      Object {
+        "key": "copySorce",
+        "value": "Copy",
+      },
+    ],
+  },
+  Object {
+    "comments": Array [
+      "# LOCALIZATION NOTE (copySource): This is the text that appears in the",
+      "# context menu to copy the selected source of file open.",
+    ],
+    "l10n": Array [
+      Object {
+        "key": "copySource",
+        "value": "Copy",
+      },
+      Object {
+        "key": "copySorce.accesskey",
+        "value": "y",
+      },
+    ],
+  },
+]
+`;
+
+exports[`parsing simple 1`] = `
+Array [
+  Object {
+    "comments": Array [
+      "# LOCALIZATION NOTE (collapsePanes): This is the tooltip for the button",
+      "# that collapses the left and right panes in the debugger UI.",
+    ],
+    "l10n": Array [
+      Object {
+        "key": "collapsePanes",
+        "value": "Collapse panes",
+      },
+    ],
+  },
+  Object {
+    "comments": Array [
+      "# LOCALIZATION NOTE (copySource): This is the text that appears in the",
+      "# context menu to copy the selected source of file open.",
+    ],
+    "l10n": Array [
+      Object {
+        "key": "copySource",
+        "value": "Copy",
+      },
+      Object {
+        "key": "copySource.accesskey",
+        "value": "y",
+      },
+    ],
+  },
+]
+`;
